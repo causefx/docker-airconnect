@@ -1,4 +1,4 @@
-FROM lsiobase/ubuntu:arm64v8-bionic
+FROM lsiobase/ubuntu:arm64v7-bionic
 
 # Add Supervisor
 RUN apt-get update && apt-get install -y \
